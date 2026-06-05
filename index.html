@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zealwood 定制演示</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="phone">
+        <header class="topbar">
+          <button class="icon-button" type="button" aria-label="返回">‹</button>
+          <span>Zealwood</span>
+          <button class="icon-button" type="button" aria-label="菜单">⋯</button>
+        </header>
+
+        <section class="screen active" data-screen="shop">
+          <div class="hero">
+            <div>
+              <p class="brand">CUSTOM MERINO</p>
+              <h1>给自己做一件羊毛T-shirt</h1>
+              <img class="slogan-image" src="./assets/hero/zealwood-forest-model.jpg" alt="Zealwood 美丽诺羊毛 T-shirt 户外穿着图" />
+              <p class="lead">选择款式，上传图案，填写收货信息后付款。</p>
+            </div>
+          </div>
+
+          <h2>个人客户定制</h2>
+          <p class="section-note">客人选择款式，上传自己的图案，确认效果图后下单。</p>
+          <div class="product-list" id="productList"></div>
+          <button class="primary-action inline-action" id="startButton" type="button">开始个人定制</button>
+
+          <h2>设计师定制</h2>
+          <p class="section-note">新增入口：设计师上传图案，生成一件可展示、可销售的定制产品。</p>
+          <div class="designer-maker">
+            <label class="designer-upload" for="designerArtworkInput">
+              <input id="designerArtworkInput" type="file" accept="image/*" />
+              <span id="designerUploadEmpty">
+                <b>+</b>
+                上传图案生成产品
+              </span>
+              <img id="designerArtworkThumb" alt="设计师上传图案" />
+            </label>
+            <div class="designer-preview">
+              <div class="mockup-large">
+                <img id="designerBaseImage" class="mockup-base" alt="所选衣服" />
+                <img id="designerPrintImage" class="mockup-print placement-left" alt="模拟印制图案" />
+              </div>
+              <label class="field">
+                <span>颜色</span>
+                <select id="designerColorInput"></select>
+              </label>
+              <label class="field">
+                <span>印制位置</span>
+                <select id="designerPlacementInput">
+                  <option value="left">左胸小图</option>
+                  <option value="front">正面大图</option>
+                  <option value="back">背面大图</option>
+                </select>
+              </label>
+              <button class="secondary-action full-width" id="createDesignerProduct" type="button">生成可售产品</button>
+            </div>
+          </div>
+          <div class="designer-products" id="designerProducts">
+            <p class="empty-designer">上传图案后，会在这里生成可售产品。</p>
+          </div>
+        </section>
+
+        <section class="screen" data-screen="customize">
+          <div class="summary">
+            <div>
+              <p id="summaryFit"></p>
+              <h2 id="summaryName"></h2>
+              <small id="summaryBreakdown"></small>
+            </div>
+            <strong id="summaryPrice"></strong>
+          </div>
+
+          <h2>上传个人图案</h2>
+          <label class="upload-box" for="artworkInput">
+            <input id="artworkInput" type="file" accept="image/*" />
+            <img id="artworkPreview" alt="上传图案预览" />
+            <span id="uploadEmpty">
+              <b>+</b>
+              选择图片
+              <small>照片、插画、Logo 初稿都可以</small>
+            </span>
+          </label>
+
+          <div class="custom-notice">
+            <div>
+              <strong>图案要求</strong>
+              <p>以线描图和简易图案为主，不建议大幅底色图案，以免影响羊毛材质的舒适感。</p>
+            </div>
+            <div>
+              <strong>定制流程</strong>
+              <p>提供图案，请确认效果图，选择尺码，客服确认，下单支付，一般 3-5 天后发货。</p>
+            </div>
+          </div>
+
+          <h2>定制选项</h2>
+          <div class="color-preview">
+            <div class="customer-mockup">
+              <img id="colorPreviewImage" class="mockup-base" alt="所选颜色衣服预览" />
+              <img id="customerPrintImage" class="mockup-print placement-left" alt="客人图案效果预览" />
+            </div>
+            <div>
+              <span>效果图预览</span>
+              <strong id="colorPreviewLabel"></strong>
+              <em id="colorPreviewPrice"></em>
+            </div>
+          </div>
+          <label class="field">
+            <span>颜色</span>
+            <select id="colorInput"></select>
+          </label>
+          <label class="field">
+            <span>尺码</span>
+            <select id="sizeInput">
+              <option>XS</option>
+              <option>S</option>
+              <option selected>M</option>
+              <option>L</option>
+              <option>XL</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>图案位置</span>
+            <select id="placementInput">
+              <option>左胸小图</option>
+              <option>正面大图</option>
+              <option>背面大图</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>备注</span>
+            <textarea id="notesInput" rows="3" placeholder="例如：保留手绘感，颜色不要太亮"></textarea>
+          </label>
+
+          <button class="primary-action" id="confirmButton" type="button">确认订单</button>
+        </section>
+
+        <section class="screen" data-screen="order">
+          <div class="order-card">
+            <img id="orderProductImage" alt="订单所选衣服颜色" />
+            <div>
+              <h2 id="orderName"></h2>
+              <p id="orderMeta"></p>
+              <strong id="orderPrice"></strong>
+            </div>
+          </div>
+
+          <h2>收货信息</h2>
+          <div class="form">
+            <input id="buyerName" type="text" placeholder="姓名" />
+            <input id="phone" type="tel" placeholder="手机号" />
+            <input id="address" type="text" placeholder="收货地址" />
+          </div>
+
+          <h2>订单备注</h2>
+          <p class="note-box" id="orderNotes">无备注</p>
+
+          <h2>费用明细</h2>
+          <div class="fee-box">
+            <span>商品价</span>
+            <strong id="itemAmount"></strong>
+            <span>印制费</span>
+            <strong id="printAmount"></strong>
+          </div>
+
+          <div class="paybar">
+            <div>
+              <span>应付</span>
+              <strong id="payAmount"></strong>
+            </div>
+            <button class="primary-action pay-button" id="payButton" type="button">付款</button>
+          </div>
+        </section>
+      </section>
+
+      <aside class="editor-panel">
+        <h2>这里可以即时修改</h2>
+        <label>
+          店铺名
+          <input id="brandEditor" type="text" value="Zealwood" />
+        </label>
+        <label>
+          第一款价格
+          <input id="crewPriceEditor" type="number" value="452" />
+        </label>
+        <label>
+          第二款价格
+          <input id="boxyPriceEditor" type="number" value="452" />
+        </label>
+        <button class="secondary-action" id="applyEdits" type="button">应用修改</button>
+        <p>你也可以直接告诉我想改哪里，我来改页面和小程序源码。</p>
+      </aside>
+    </main>
+
+    <div class="toast" id="toast"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>

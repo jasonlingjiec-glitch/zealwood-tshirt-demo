@@ -1,0 +1,77 @@
+[
+  {
+    "label": "女款长袖深海鸥灰",
+    "image": "./assets/colors/women-long-gray.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i4/2896563150/O1CN01j7LxOb1Z8ki66Z5yv_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "女款长袖复古靛蓝",
+    "image": "./assets/colors/women-long-blue.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i3/2896563150/O1CN01FiP3eP1Z8ki5hrxTk_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "女款长袖意大利紫",
+    "image": "./assets/colors/women-long-purple.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i1/2896563150/O1CN014sBTO81Z8ki4vsCEH_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "男款长袖深海鸥灰",
+    "image": "./assets/colors/men-long-gray.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i3/2896563150/O1CN015nFpid1Z8ki5KsUXm_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "男款长袖复古靛蓝",
+    "image": "./assets/colors/men-long-blue.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i3/2896563150/O1CN01OH3ALs1Z8ki0G2XGn_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "男款长袖意大利紫",
+    "image": "./assets/colors/men-long-purple.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i3/2896563150/O1CN01qr1P5e1Z8ki4Z3nzG_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "女款短袖深海鸥灰",
+    "image": "./assets/colors/women-short-gray.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i2/2896563150/O1CN01QAeCJ91Z8ki5jq9Qt_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "女款短袖复古靛蓝",
+    "image": "./assets/colors/women-short-blue.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i2/2896563150/O1CN01oGRhcw1Z8ki4xQ8ZL_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "女款短袖意大利紫",
+    "image": "./assets/colors/women-short-purple.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i1/2896563150/O1CN016p7mLc1Z8ki0G38j6_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "男款短袖深海鸥灰",
+    "image": "./assets/colors/men-short-gray.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i3/2896563150/O1CN017Y4tGY1Z8ki6cJW9D_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "男款短袖复古靛蓝",
+    "image": "./assets/colors/men-short-blue.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i3/2896563150/O1CN01le2QOE1Z8ki4vrOJC_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "男款短袖意大利紫",
+    "image": "./assets/colors/men-short-purple.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i2/2896563150/O1CN01XTDLjM1Z8ki4Z1Bnr_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "POLO深海鸥灰",
+    "image": "./assets/colors/polo-gray.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i2/2896563150/O1CN01VwReQV1Z8ki66mCFE_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "POLO复古靛蓝",
+    "image": "./assets/colors/polo-blue.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i3/2896563150/O1CN01TpLjZ31Z8ki6Vf5iI_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "POLO意大利紫",
+    "image": "./assets/colors/polo-purple.webp",
+    "source": "https://gw.alicdn.com/bao/uploaded/i1/2896563150/O1CN01wNey9e1Z8ki61FoXI_!!2896563150.jpg_.webp"
+  }
+]
