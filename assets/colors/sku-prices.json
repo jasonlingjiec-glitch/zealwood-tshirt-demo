@@ -15,6 +15,11 @@
     "originalPrice": 619
   },
   {
+    "label": "女款长袖米白色",
+    "price": 452,
+    "originalPrice": 619
+  },
+  {
     "label": "男款长袖深海鸥灰",
     "price": 452,
     "originalPrice": 619
@@ -26,6 +31,11 @@
   },
   {
     "label": "男款长袖意大利紫",
+    "price": 452,
+    "originalPrice": 619
+  },
+  {
+    "label": "男款长袖米白色",
     "price": 452,
     "originalPrice": 619
   },
@@ -45,6 +55,11 @@
     "originalPrice": 529
   },
   {
+    "label": "女款短袖米白色",
+    "price": 385,
+    "originalPrice": 529
+  },
+  {
     "label": "男款短袖深海鸥灰",
     "price": 385,
     "originalPrice": 529
@@ -60,6 +75,11 @@
     "originalPrice": 529
   },
   {
+    "label": "男款短袖米白色",
+    "price": 385,
+    "originalPrice": 529
+  },
+  {
     "label": "POLO深海鸥灰",
     "price": 518,
     "originalPrice": 709
@@ -71,6 +91,11 @@
   },
   {
     "label": "POLO意大利紫",
+    "price": 518,
+    "originalPrice": 709
+  },
+  {
+    "label": "POLO米白色",
     "price": 518,
     "originalPrice": 709
   }

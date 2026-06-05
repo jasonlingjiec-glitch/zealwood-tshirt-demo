@@ -2,18 +2,23 @@ const colorOptions = [
   { label: "女款长袖深海鸥灰", image: "./assets/colors/women-long-gray.webp", price: 452, originalPrice: 619 },
   { label: "女款长袖复古靛蓝", image: "./assets/colors/women-long-blue.webp", price: 452, originalPrice: 619 },
   { label: "女款长袖意大利紫", image: "./assets/colors/women-long-purple.webp", price: 452, originalPrice: 619 },
+  { label: "女款长袖米白色", image: "./assets/colors/women-long-cream.jpg", price: 452, originalPrice: 619 },
   { label: "男款长袖深海鸥灰", image: "./assets/colors/men-long-gray.webp", price: 452, originalPrice: 619 },
   { label: "男款长袖复古靛蓝", image: "./assets/colors/men-long-blue.webp", price: 452, originalPrice: 619 },
   { label: "男款长袖意大利紫", image: "./assets/colors/men-long-purple.webp", price: 452, originalPrice: 619 },
+  { label: "男款长袖米白色", image: "./assets/colors/men-long-cream.jpg", price: 452, originalPrice: 619 },
   { label: "女款短袖深海鸥灰", image: "./assets/colors/women-short-gray.webp", price: 385, originalPrice: 529 },
   { label: "女款短袖复古靛蓝", image: "./assets/colors/women-short-blue.webp", price: 385, originalPrice: 529 },
   { label: "女款短袖意大利紫", image: "./assets/colors/women-short-purple.webp", price: 385, originalPrice: 529 },
+  { label: "女款短袖米白色", image: "./assets/colors/women-short-cream.jpg", price: 385, originalPrice: 529 },
   { label: "男款短袖深海鸥灰", image: "./assets/colors/men-short-gray.webp", price: 385, originalPrice: 529 },
   { label: "男款短袖复古靛蓝", image: "./assets/colors/men-short-blue.webp", price: 385, originalPrice: 529 },
   { label: "男款短袖意大利紫", image: "./assets/colors/men-short-purple.webp", price: 385, originalPrice: 529 },
+  { label: "男款短袖米白色", image: "./assets/colors/men-short-cream.jpg", price: 385, originalPrice: 529 },
   { label: "POLO深海鸥灰", image: "./assets/colors/polo-gray.webp", price: 518, originalPrice: 709 },
   { label: "POLO复古靛蓝", image: "./assets/colors/polo-blue.webp", price: 518, originalPrice: 709 },
-  { label: "POLO意大利紫", image: "./assets/colors/polo-purple.webp", price: 518, originalPrice: 709 }
+  { label: "POLO意大利紫", image: "./assets/colors/polo-purple.webp", price: 518, originalPrice: 709 },
+  { label: "POLO米白色", image: "./assets/colors/polo-cream.jpg", price: 518, originalPrice: 709 }
 ];
 
 const PRINT_FEE = 20;
@@ -23,7 +28,7 @@ const products = [
     id: "crew",
     name: "OTW Merino Tee",
     fit: "圆领标准版",
-    color: "深海鸥灰 / 复古靛蓝 / 意大利紫",
+    color: "深海鸥灰 / 复古靛蓝 / 意大利紫 / 米白色",
     material: "100% merino wool",
     price: 452,
     originalPrice: 619,

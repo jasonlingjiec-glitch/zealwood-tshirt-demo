@@ -15,6 +15,11 @@
     "source": "https://gw.alicdn.com/bao/uploaded/i1/2896563150/O1CN014sBTO81Z8ki4vsCEH_!!2896563150.jpg_.webp"
   },
   {
+    "label": "女款长袖米白色",
+    "image": "./assets/colors/women-long-cream.jpg",
+    "source": "local sample"
+  },
+  {
     "label": "男款长袖深海鸥灰",
     "image": "./assets/colors/men-long-gray.webp",
     "source": "https://gw.alicdn.com/bao/uploaded/i3/2896563150/O1CN015nFpid1Z8ki5KsUXm_!!2896563150.jpg_.webp"
@@ -28,6 +33,11 @@
     "label": "男款长袖意大利紫",
     "image": "./assets/colors/men-long-purple.webp",
     "source": "https://gw.alicdn.com/bao/uploaded/i3/2896563150/O1CN01qr1P5e1Z8ki4Z3nzG_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "男款长袖米白色",
+    "image": "./assets/colors/men-long-cream.jpg",
+    "source": "local sample"
   },
   {
     "label": "女款短袖深海鸥灰",
@@ -45,6 +55,11 @@
     "source": "https://gw.alicdn.com/bao/uploaded/i1/2896563150/O1CN016p7mLc1Z8ki0G38j6_!!2896563150.jpg_.webp"
   },
   {
+    "label": "女款短袖米白色",
+    "image": "./assets/colors/women-short-cream.jpg",
+    "source": "local sample"
+  },
+  {
     "label": "男款短袖深海鸥灰",
     "image": "./assets/colors/men-short-gray.webp",
     "source": "https://gw.alicdn.com/bao/uploaded/i3/2896563150/O1CN017Y4tGY1Z8ki6cJW9D_!!2896563150.jpg_.webp"
@@ -60,6 +75,11 @@
     "source": "https://gw.alicdn.com/bao/uploaded/i2/2896563150/O1CN01XTDLjM1Z8ki4Z1Bnr_!!2896563150.jpg_.webp"
   },
   {
+    "label": "男款短袖米白色",
+    "image": "./assets/colors/men-short-cream.jpg",
+    "source": "local sample"
+  },
+  {
     "label": "POLO深海鸥灰",
     "image": "./assets/colors/polo-gray.webp",
     "source": "https://gw.alicdn.com/bao/uploaded/i2/2896563150/O1CN01VwReQV1Z8ki66mCFE_!!2896563150.jpg_.webp"
@@ -73,5 +93,10 @@
     "label": "POLO意大利紫",
     "image": "./assets/colors/polo-purple.webp",
     "source": "https://gw.alicdn.com/bao/uploaded/i1/2896563150/O1CN01wNey9e1Z8ki61FoXI_!!2896563150.jpg_.webp"
+  },
+  {
+    "label": "POLO米白色",
+    "image": "./assets/colors/polo-cream.jpg",
+    "source": "local sample"
   }
 ]
